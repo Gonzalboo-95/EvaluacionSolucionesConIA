@@ -59,6 +59,6 @@ while True:
     if pregunta.lower() in ["salir", "exit"]: break
     try:
         respuesta = rag_chain.invoke(pregunta)
-        print(f"\nAsistente Nueva Imagen: {respuesta}")
+        print(f"\nChatbot Nueva Imagen: {respuesta}")
     except Exception as e:
         print(f"\nDetalle técnico: {e}")
