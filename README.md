@@ -15,4 +15,4 @@ Utilizamos una base de datos vectorial contruida con manuales y mas de 65 guías
 - `data/`: Repositorio de manuales PDF.
 - `index_canon/`: Base de datos vectorial persistente.
 
-Desarrollado por Jose, Martin y Gonzalo - Duoc UC*
+Desarrollado por Jose, Martin y Gonzalo - Duoc UC
