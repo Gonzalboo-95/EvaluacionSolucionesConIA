@@ -27,6 +27,29 @@ Diagrama de flujo:
 [Documentos externos]   /
 ```
 
+Diagrama de arquitectura (Mermaid):
+
+```mermaid
+flowchart LR
+   subgraph Ingest
+      A[Manuales PDF (data/)] --> B[procesar_manuales.py]
+      C[Documentos externos (external_sources/)] --> B
+      B --> D[Chunking & Embeddings (800/150)]
+      D --> E[FAISS index (index_canon/)]
+   end
+
+   subgraph Query
+      U[Operario / CLI] --> F[app.py (Retriever + Prompt)]
+      F --> G[Retriever: top-k docs]
+      G --> H[Prompt RAG (context assembly)]
+      H --> I[LLM (gpt-4o)]
+      I --> F
+   end
+
+   E --> G
+   env[[.env (local, ignored)]] -.-> F
+```
+
 ## Organización del Proyecto
 - `app.py`: Interfaz de consulta y pipeline RAG.
 - `procesar_manuales.py`: Pipeline de ingesta y vectorización por lotes.
@@ -58,5 +81,6 @@ Diagrama de flujo:
 - Se añadió una sección de arquitectura y flujo de datos.
 - `.env` está listado en `.gitignore` para proteger credenciales.
 - `index_canon/` también se ignora como artefacto generado.
+ - Falta: No hay diagrama de arquitectura (solo diagrama de flujo en el informe).
 
 Desarrollado por Jose, Martin y Gonzalo - Duoc UC
