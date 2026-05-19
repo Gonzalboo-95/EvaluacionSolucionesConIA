@@ -1,1 +1,5 @@
 .env
+index_canon/
+__pycache__/
+*.pyc
+

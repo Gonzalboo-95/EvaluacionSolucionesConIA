@@ -1,0 +1,11 @@
+Canon iX6810 - Información de soporte externo
+
+Esta referencia externa incluye buenas prácticas generales de mantenimiento y diagnóstico para impresoras Canon, especialmente para la serie iX.
+
+- Verificación de niveles de tinta y reemplazo de cartuchos cuando sea necesario.
+- Limpieza de cabezales usando los procedimientos recomendados por Canon.
+- Inspección y remoción de atascos de papel en la bandeja de entrada y salida.
+- Alineación de cabezales y calibración de color como parte del mantenimiento preventivo.
+- Diagnóstico de errores frecuentes: verificar códigos de error en el panel y consultar la documentación técnica del fabricante.
+
+Nota: Este documento actúa como una fuente externa adicional para complementar los manuales internos de Canon iX6810.

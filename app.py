@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()
 
-#Configuración del modelo
+# Configuración del modelo
 llm = ChatOpenAI(
     model="gpt-4o",
     openai_api_key=os.environ.get("GITHUB_TOKEN"),
@@ -16,18 +16,25 @@ llm = ChatOpenAI(
     temperature=0
 )
 
-#Cargar BD con credenciales de GitHub
+# Cargar BD con credenciales de GitHub
 embeddings = OpenAIEmbeddings(
     model="text-embedding-3-small",
     openai_api_key=os.environ.get("GITHUB_TOKEN"),
     openai_api_base="https://models.inference.ai.azure.com"
 )
-vector_db = FAISS.load_local("index_canon", embeddings, allow_dangerous_deserialization=True)
+
+try:
+    vector_db = FAISS.load_local("index_canon", embeddings, allow_dangerous_deserialization=True)
+except Exception as e:
+    print("No se encontró el índice local 'index_canon' o hubo un error al cargarlo.")
+    print("Ejecuta primero: python procesar_manuales.py")
+    raise
+
 retriever = vector_db.as_retriever(search_kwargs={"k": 3})
 
-#Diseño del Prompt
-template = """Eres el experto técnico de Imprenta Nueva Imagen. 
-Usa la siguiente información del manual para responder la duda del operario sobre la Canon iX6810.
+# Diseño del Prompt
+template = """Eres el experto técnico de Imprenta Nueva Imagen.
+Usa la siguiente información de los manuales y de las fuentes externas para responder la duda del operario sobre la Canon iX6810.
 Si la respuesta no está en el texto, di que no tienes esa información específica.
 
 Contexto:
@@ -38,9 +45,16 @@ Respuesta técnica:"""
 
 prompt = ChatPromptTemplate.from_template(template)
 
-#Pipeline
+# Pipeline
 def format_docs(docs):
-    return "\n\n".join(doc.page_content for doc in docs)
+    fragments = []
+    for doc in docs:
+        source = doc.metadata.get("source", "") if hasattr(doc, "metadata") else ""
+        if source:
+            fragments.append(f"[Fuente: {source}]\n{doc.page_content}")
+        else:
+            fragments.append(doc.page_content)
+    return "\n\n".join(fragments)
 
 rag_chain = (
     {"context": retriever | format_docs, "question": RunnablePassthrough()}
@@ -55,8 +69,13 @@ print("--- Maestro imprentero listo para consultas ---")
 print("="*45)
 
 while True:
-    pregunta = input("\nImprentero: ")
-    if pregunta.lower() in ["salir", "exit"]: break
+    try:
+        pregunta = input("\nImprentero: ").strip()
+    except EOFError:
+        print("\nSaliendo del chatbot.")
+        break
+    if pregunta.lower() in ["salir", "exit"]:
+        break
     try:
         respuesta = rag_chain.invoke(pregunta)
         print(f"\nChatbot Nueva Imagen: {respuesta}")
