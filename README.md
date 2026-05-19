@@ -50,6 +50,8 @@ flowchart LR
    env[[.env (local, ignored)]] -.-> F
 ```
 
+![Diagrama de Arquitectura](architecture.png)
+
 ## Organización del Proyecto
 - `app.py`: Interfaz de consulta y pipeline RAG.
 - `procesar_manuales.py`: Pipeline de ingesta y vectorización por lotes.
@@ -81,6 +83,6 @@ flowchart LR
 - Se añadió una sección de arquitectura y flujo de datos.
 - `.env` está listado en `.gitignore` para proteger credenciales.
 - `index_canon/` también se ignora como artefacto generado.
- - Falta: No hay diagrama de arquitectura (solo diagrama de flujo en el informe).
+- Se agregó la imagen de arquitectura `architecture.png` al proyecto.
 
 Desarrollado por Jose, Martin y Gonzalo - Duoc UC
