@@ -4,3 +4,8 @@ langchain-openai
 faiss-cpu
 pypdf
 python-dotenv
+openai
+streamlit
+plotly
+pandas
+python-docx

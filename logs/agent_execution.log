@@ -1,0 +1,112 @@
+2026-07-01 00:09:27,270 - CanonAgent - INFO - [e1b422d9-1cb1-43ba-ad00-e90e3f5b0162] Iniciando ejecución con query: ¿Cómo limpio los cabezales de la Canon iX6810?
+2026-07-01 00:09:27,775 - CanonAgent - INFO - [e1b422d9-1cb1-43ba-ad00-e90e3f5b0162] Recuperación: 3 chunks en 341.13ms
+2026-07-01 00:09:27,776 - CanonAgent - DEBUG - [e1b422d9-1cb1-43ba-ad00-e90e3f5b0162] Tokens utilizados: 85
+2026-07-01 00:09:27,781 - CanonAgent - INFO - [e1b422d9-1cb1-43ba-ad00-e90e3f5b0162] Ejecución completada en 506.48ms con estado: completado
+2026-07-01 00:09:27,783 - CanonAgent - INFO - [1331381c-28cc-4f6d-a540-eb50bd8e0149] Iniciando ejecución con query: La impresora hace ruido extraño en el motor
+2026-07-01 00:09:28,997 - CanonAgent - INFO - [1331381c-28cc-4f6d-a540-eb50bd8e0149] Recuperación: 3 chunks en 430.51ms
+2026-07-01 00:09:28,998 - CanonAgent - DEBUG - [1331381c-28cc-4f6d-a540-eb50bd8e0149] Tokens utilizados: 150
+2026-07-01 00:09:28,999 - CanonAgent - INFO - [1331381c-28cc-4f6d-a540-eb50bd8e0149] Ejecución completada en 1214.86ms con estado: completado
+2026-07-01 00:09:29,000 - CanonAgent - INFO - [b737bcdd-0563-45fa-bb91-061157981c80] Iniciando ejecución con query: ¿Qué tipo de tinta debo usar para documentos legales?
+2026-07-01 00:09:29,303 - CanonAgent - INFO - [b737bcdd-0563-45fa-bb91-061157981c80] Recuperación: 3 chunks en 226.89ms
+2026-07-01 00:09:29,303 - CanonAgent - DEBUG - [b737bcdd-0563-45fa-bb91-061157981c80] Tokens utilizados: 70
+2026-07-01 00:09:29,304 - CanonAgent - INFO - [b737bcdd-0563-45fa-bb91-061157981c80] Ejecución completada en 303.11ms con estado: completado
+2026-07-01 00:09:29,304 - CanonAgent - INFO - [794d3315-cdb6-4064-b735-2d6c32835c94] Iniciando ejecución con query: Necesito diagnosticar líneas en los documentos impresos
+2026-07-01 00:09:30,198 - CanonAgent - INFO - [794d3315-cdb6-4064-b735-2d6c32835c94] Recuperación: 3 chunks en 373.39ms
+2026-07-01 00:09:30,198 - CanonAgent - DEBUG - [794d3315-cdb6-4064-b735-2d6c32835c94] Tokens utilizados: 120
+2026-07-01 00:09:30,199 - CanonAgent - INFO - [794d3315-cdb6-4064-b735-2d6c32835c94] Ejecución completada en 893.79ms con estado: completado
+2026-07-01 00:09:30,199 - CanonAgent - INFO - [c14e254d-aa1f-4356-84a6-0c89cb5a6d43] Iniciando ejecución con query: ¿Cuál es el procedimiento de mantenimiento preventivo?
+2026-07-01 00:09:30,851 - CanonAgent - INFO - [c14e254d-aa1f-4356-84a6-0c89cb5a6d43] Recuperación: 3 chunks en 240.96ms
+2026-07-01 00:09:30,852 - CanonAgent - DEBUG - [c14e254d-aa1f-4356-84a6-0c89cb5a6d43] Tokens utilizados: 110
+2026-07-01 00:09:30,852 - CanonAgent - INFO - [c14e254d-aa1f-4356-84a6-0c89cb5a6d43] Ejecución completada en 652.77ms con estado: completado
+2026-07-01 00:09:30,853 - CanonAgent - INFO - [7b8824e9-8d5a-4c33-a698-90227d25f6f7] Iniciando ejecución con query: Especificaciones técnicas completas del modelo
+2026-07-01 00:09:31,377 - CanonAgent - INFO - [7b8824e9-8d5a-4c33-a698-90227d25f6f7] Recuperación: 3 chunks en 290.92ms
+2026-07-01 00:09:31,377 - CanonAgent - DEBUG - [7b8824e9-8d5a-4c33-a698-90227d25f6f7] Tokens utilizados: 95
+2026-07-01 00:09:31,378 - CanonAgent - INFO - [7b8824e9-8d5a-4c33-a698-90227d25f6f7] Ejecución completada en 524.06ms con estado: completado
+2026-07-01 00:09:31,378 - CanonAgent - INFO - [56d49c41-ba1f-4470-9a76-9f320d0fa248] Iniciando ejecución con query: Configuración de red avanzada
+2026-07-01 00:09:32,161 - CanonAgent - INFO - [56d49c41-ba1f-4470-9a76-9f320d0fa248] Recuperación: 3 chunks en 283.35ms
+2026-07-01 00:09:32,161 - CanonAgent - DEBUG - [56d49c41-ba1f-4470-9a76-9f320d0fa248] Tokens utilizados: 130
+2026-07-01 00:09:32,162 - CanonAgent - INFO - [56d49c41-ba1f-4470-9a76-9f320d0fa248] Ejecución completada en 782.86ms con estado: completado
+2026-07-01 00:09:32,162 - CanonAgent - INFO - [b9ab4dc9-758e-4e22-b8cd-ca063bcb4167] Iniciando ejecución con query: Información sobre modelo inexistente XYZ9999
+2026-07-01 00:09:32,563 - CanonAgent - INFO - [b9ab4dc9-758e-4e22-b8cd-ca063bcb4167] Recuperación: 0 chunks en 263.97ms
+2026-07-01 00:09:32,563 - CanonAgent - DEBUG - [b9ab4dc9-758e-4e22-b8cd-ca063bcb4167] Tokens utilizados: 60
+2026-07-01 00:09:32,564 - CanonAgent - INFO - [b9ab4dc9-758e-4e22-b8cd-ca063bcb4167] Ejecución completada en 401.24ms con estado: parcial
+2026-07-01 00:09:32,564 - CanonAgent - INFO - [a7acd53d-ba47-40e8-ad77-5e6ecfbd749d] Iniciando ejecución con query: ¿Cuál es el consumo de tinta por página?
+2026-07-01 00:09:32,917 - CanonAgent - INFO - [a7acd53d-ba47-40e8-ad77-5e6ecfbd749d] Recuperación: 3 chunks en 254.19ms
+2026-07-01 00:09:32,917 - CanonAgent - DEBUG - [a7acd53d-ba47-40e8-ad77-5e6ecfbd749d] Tokens utilizados: 75
+2026-07-01 00:09:32,918 - CanonAgent - INFO - [a7acd53d-ba47-40e8-ad77-5e6ecfbd749d] Ejecución completada en 352.48ms con estado: completado
+2026-07-01 00:09:32,918 - CanonAgent - INFO - [e38f2ae3-0f0f-4a40-9e61-5cb8a03265e3] Iniciando ejecución con query: Cómo cambiar el cartucho de tinta
+2026-07-01 00:09:33,526 - CanonAgent - INFO - [e38f2ae3-0f0f-4a40-9e61-5cb8a03265e3] Recuperación: 3 chunks en 229.28ms
+2026-07-01 00:09:33,526 - CanonAgent - DEBUG - [e38f2ae3-0f0f-4a40-9e61-5cb8a03265e3] Tokens utilizados: 105
+2026-07-01 00:09:33,527 - CanonAgent - INFO - [e38f2ae3-0f0f-4a40-9e61-5cb8a03265e3] Ejecución completada en 608.35ms con estado: completado
+2026-07-01 00:09:33,528 - CanonAgent - INFO - [753cf5d2-48fd-4a30-aacc-461d1f87559a] Iniciando ejecución con query: ¿Puedo usar tinta de terceros?
+2026-07-01 00:09:33,951 - CanonAgent - INFO - [753cf5d2-48fd-4a30-aacc-461d1f87559a] Recuperación: 3 chunks en 392.92ms
+2026-07-01 00:09:33,951 - CanonAgent - DEBUG - [753cf5d2-48fd-4a30-aacc-461d1f87559a] Tokens utilizados: 90
+2026-07-01 00:09:33,952 - CanonAgent - INFO - [753cf5d2-48fd-4a30-aacc-461d1f87559a] Ejecución completada en 423.50ms con estado: completado
+2026-07-01 00:09:33,953 - CanonAgent - INFO - [2a8c80e8-af83-44a2-9801-7e3619e5d8d9] Iniciando ejecución con query: Código de error E02-4000
+2026-07-01 00:09:34,913 - CanonAgent - INFO - [2a8c80e8-af83-44a2-9801-7e3619e5d8d9] Recuperación: 3 chunks en 234.73ms
+2026-07-01 00:09:34,913 - CanonAgent - DEBUG - [2a8c80e8-af83-44a2-9801-7e3619e5d8d9] Tokens utilizados: 140
+2026-07-01 00:09:34,914 - CanonAgent - INFO - [2a8c80e8-af83-44a2-9801-7e3619e5d8d9] Ejecución completada en 960.70ms con estado: completado
+2026-07-01 00:24:19,183 - CanonAgent - INFO - Cargadas 12 métricas previas
+2026-07-01 00:24:19,193 - CanonAgent - INFO - [a8169997-5802-459c-87a0-b3f23f023315] Iniciando ejecución con query: ¿Cómo limpio los cabezales de la Canon iX6810?
+2026-07-01 00:24:19,643 - CanonAgent - INFO - [a8169997-5802-459c-87a0-b3f23f023315] Herramienta 'search_technical_manual' ejecutada en 467.03ms [OK]
+2026-07-01 00:24:19,644 - CanonAgent - INFO - [a8169997-5802-459c-87a0-b3f23f023315] Recuperación: 3 chunks en 253.53ms
+2026-07-01 00:24:19,644 - CanonAgent - DEBUG - [a8169997-5802-459c-87a0-b3f23f023315] Tokens utilizados: 85
+2026-07-01 00:24:19,645 - CanonAgent - INFO - [a8169997-5802-459c-87a0-b3f23f023315] Ejecución completada en 451.38ms con estado: completado
+2026-07-01 00:24:19,645 - CanonAgent - INFO - [0b33f74c-90fa-4833-9c04-0b9b3fde97b7] Iniciando ejecución con query: La impresora hace ruido extraño en el motor
+2026-07-01 00:24:20,847 - CanonAgent - INFO - [0b33f74c-90fa-4833-9c04-0b9b3fde97b7] Herramienta 'search_technical_manual' ejecutada en 443.92ms [OK]
+2026-07-01 00:24:20,848 - CanonAgent - INFO - [0b33f74c-90fa-4833-9c04-0b9b3fde97b7] Herramienta 'create_work_order' ejecutada en 309.94ms [OK]
+2026-07-01 00:24:20,849 - CanonAgent - INFO - [0b33f74c-90fa-4833-9c04-0b9b3fde97b7] Recuperación: 3 chunks en 379.16ms
+2026-07-01 00:24:20,850 - CanonAgent - DEBUG - [0b33f74c-90fa-4833-9c04-0b9b3fde97b7] Tokens utilizados: 150
+2026-07-01 00:24:20,851 - CanonAgent - INFO - [0b33f74c-90fa-4833-9c04-0b9b3fde97b7] Ejecución completada en 1204.46ms con estado: completado
+2026-07-01 00:24:20,852 - CanonAgent - INFO - [abd0e615-93f3-40a9-9414-865bbc11c2e2] Iniciando ejecución con query: ¿Qué tipo de tinta debo usar para documentos legales?
+2026-07-01 00:24:21,156 - CanonAgent - INFO - [abd0e615-93f3-40a9-9414-865bbc11c2e2] Herramienta 'search_technical_manual' ejecutada en 252.04ms [OK]
+2026-07-01 00:24:21,157 - CanonAgent - INFO - [abd0e615-93f3-40a9-9414-865bbc11c2e2] Recuperación: 3 chunks en 340.37ms
+2026-07-01 00:24:21,158 - CanonAgent - DEBUG - [abd0e615-93f3-40a9-9414-865bbc11c2e2] Tokens utilizados: 70
+2026-07-01 00:24:21,159 - CanonAgent - INFO - [abd0e615-93f3-40a9-9414-865bbc11c2e2] Ejecución completada en 306.33ms con estado: completado
+2026-07-01 00:24:21,159 - CanonAgent - INFO - [a6d9fc7f-5d39-40d4-8691-c1283c03a783] Iniciando ejecución con query: Necesito diagnosticar líneas en los documentos impresos
+2026-07-01 00:24:22,050 - CanonAgent - INFO - [a6d9fc7f-5d39-40d4-8691-c1283c03a783] Herramienta 'search_technical_manual' ejecutada en 144.92ms [OK]
+2026-07-01 00:24:22,050 - CanonAgent - INFO - [a6d9fc7f-5d39-40d4-8691-c1283c03a783] Herramienta 'diagnostic_check' ejecutada en 289.87ms [OK]
+2026-07-01 00:24:22,051 - CanonAgent - INFO - [a6d9fc7f-5d39-40d4-8691-c1283c03a783] Recuperación: 3 chunks en 223.52ms
+2026-07-01 00:24:22,051 - CanonAgent - DEBUG - [a6d9fc7f-5d39-40d4-8691-c1283c03a783] Tokens utilizados: 120
+2026-07-01 00:24:22,051 - CanonAgent - INFO - [a6d9fc7f-5d39-40d4-8691-c1283c03a783] Ejecución completada en 891.39ms con estado: completado
+2026-07-01 00:24:22,052 - CanonAgent - INFO - [90e98d5e-f730-4211-8286-08d341ce0836] Iniciando ejecución con query: ¿Cuál es el procedimiento de mantenimiento preventivo?
+2026-07-01 00:24:22,703 - CanonAgent - INFO - [90e98d5e-f730-4211-8286-08d341ce0836] Herramienta 'search_technical_manual' ejecutada en 102.91ms [OK]
+2026-07-01 00:24:22,703 - CanonAgent - INFO - [90e98d5e-f730-4211-8286-08d341ce0836] Recuperación: 3 chunks en 495.37ms
+2026-07-01 00:24:22,703 - CanonAgent - DEBUG - [90e98d5e-f730-4211-8286-08d341ce0836] Tokens utilizados: 110
+2026-07-01 00:24:22,706 - CanonAgent - INFO - [90e98d5e-f730-4211-8286-08d341ce0836] Ejecución completada en 651.87ms con estado: completado
+2026-07-01 00:24:22,708 - CanonAgent - INFO - [4a594dad-44ea-4bf2-8a58-008d86e3e93c] Iniciando ejecución con query: Especificaciones técnicas completas del modelo
+2026-07-01 00:24:23,229 - CanonAgent - INFO - [4a594dad-44ea-4bf2-8a58-008d86e3e93c] Herramienta 'search_technical_manual' ejecutada en 328.12ms [OK]
+2026-07-01 00:24:23,229 - CanonAgent - INFO - [4a594dad-44ea-4bf2-8a58-008d86e3e93c] Recuperación: 3 chunks en 247.94ms
+2026-07-01 00:24:23,229 - CanonAgent - DEBUG - [4a594dad-44ea-4bf2-8a58-008d86e3e93c] Tokens utilizados: 95
+2026-07-01 00:24:23,230 - CanonAgent - INFO - [4a594dad-44ea-4bf2-8a58-008d86e3e93c] Ejecución completada en 521.82ms con estado: completado
+2026-07-01 00:24:23,231 - CanonAgent - INFO - [b827829a-53f6-45d4-8140-51a1afcc0c57] Iniciando ejecución con query: Configuración de red avanzada
+2026-07-01 00:24:24,011 - CanonAgent - INFO - [b827829a-53f6-45d4-8140-51a1afcc0c57] Herramienta 'search_technical_manual' ejecutada en 236.51ms [OK]
+2026-07-01 00:24:24,012 - CanonAgent - INFO - [b827829a-53f6-45d4-8140-51a1afcc0c57] Recuperación: 3 chunks en 340.75ms
+2026-07-01 00:24:24,012 - CanonAgent - DEBUG - [b827829a-53f6-45d4-8140-51a1afcc0c57] Tokens utilizados: 130
+2026-07-01 00:24:24,013 - CanonAgent - INFO - [b827829a-53f6-45d4-8140-51a1afcc0c57] Ejecución completada en 781.34ms con estado: completado
+2026-07-01 00:24:24,013 - CanonAgent - INFO - [7862ef2a-5eab-4735-aae9-190420f62064] Iniciando ejecución con query: Información sobre modelo inexistente XYZ9999
+2026-07-01 00:24:24,414 - CanonAgent - INFO - [7862ef2a-5eab-4735-aae9-190420f62064] Recuperación: 0 chunks en 358.31ms
+2026-07-01 00:24:24,414 - CanonAgent - DEBUG - [7862ef2a-5eab-4735-aae9-190420f62064] Tokens utilizados: 60
+2026-07-01 00:24:24,415 - CanonAgent - INFO - [7862ef2a-5eab-4735-aae9-190420f62064] Ejecución completada en 401.10ms con estado: parcial
+2026-07-01 00:24:24,415 - CanonAgent - INFO - [c5f8b694-81ad-4fe7-8bb7-8ef154a6bb9a] Iniciando ejecución con query: ¿Cuál es el consumo de tinta por página?
+2026-07-01 00:24:24,766 - CanonAgent - INFO - [c5f8b694-81ad-4fe7-8bb7-8ef154a6bb9a] Herramienta 'search_technical_manual' ejecutada en 388.06ms [OK]
+2026-07-01 00:24:24,766 - CanonAgent - INFO - [c5f8b694-81ad-4fe7-8bb7-8ef154a6bb9a] Recuperación: 3 chunks en 398.58ms
+2026-07-01 00:24:24,766 - CanonAgent - DEBUG - [c5f8b694-81ad-4fe7-8bb7-8ef154a6bb9a] Tokens utilizados: 75
+2026-07-01 00:24:24,767 - CanonAgent - INFO - [c5f8b694-81ad-4fe7-8bb7-8ef154a6bb9a] Ejecución completada en 351.32ms con estado: completado
+2026-07-01 00:24:24,768 - CanonAgent - INFO - [fc979334-79a1-4610-b920-4c68364d9fd6] Iniciando ejecución con query: Cómo cambiar el cartucho de tinta
+2026-07-01 00:24:25,369 - CanonAgent - INFO - [fc979334-79a1-4610-b920-4c68364d9fd6] Herramienta 'search_technical_manual' ejecutada en 107.52ms [OK]
+2026-07-01 00:24:25,369 - CanonAgent - INFO - [fc979334-79a1-4610-b920-4c68364d9fd6] Herramienta 'create_work_order' ejecutada en 158.21ms [OK]
+2026-07-01 00:24:25,370 - CanonAgent - INFO - [fc979334-79a1-4610-b920-4c68364d9fd6] Recuperación: 3 chunks en 287.94ms
+2026-07-01 00:24:25,370 - CanonAgent - DEBUG - [fc979334-79a1-4610-b920-4c68364d9fd6] Tokens utilizados: 105
+2026-07-01 00:24:25,372 - CanonAgent - INFO - [fc979334-79a1-4610-b920-4c68364d9fd6] Ejecución completada en 602.64ms con estado: completado
+2026-07-01 00:24:25,374 - CanonAgent - INFO - [91cf235c-d6c9-48e0-bd58-d38bca2c10b2] Iniciando ejecución con query: ¿Puedo usar tinta de terceros?
+2026-07-01 00:24:25,795 - CanonAgent - INFO - [91cf235c-d6c9-48e0-bd58-d38bca2c10b2] Herramienta 'search_technical_manual' ejecutada en 211.60ms [OK]
+2026-07-01 00:24:25,796 - CanonAgent - INFO - [91cf235c-d6c9-48e0-bd58-d38bca2c10b2] Recuperación: 3 chunks en 291.70ms
+2026-07-01 00:24:25,796 - CanonAgent - DEBUG - [91cf235c-d6c9-48e0-bd58-d38bca2c10b2] Tokens utilizados: 90
+2026-07-01 00:24:25,797 - CanonAgent - INFO - [91cf235c-d6c9-48e0-bd58-d38bca2c10b2] Ejecución completada en 421.91ms con estado: completado
+2026-07-01 00:24:25,797 - CanonAgent - INFO - [7f140d28-8632-4c7a-a895-6a0a0addf23a] Iniciando ejecución con query: Código de error E02-4000
+2026-07-01 00:24:26,748 - CanonAgent - INFO - [7f140d28-8632-4c7a-a895-6a0a0addf23a] Herramienta 'search_technical_manual' ejecutada en 404.05ms [OK]
+2026-07-01 00:24:26,748 - CanonAgent - INFO - [7f140d28-8632-4c7a-a895-6a0a0addf23a] Herramienta 'diagnostic_check' ejecutada en 372.02ms [OK]
+2026-07-01 00:24:26,748 - CanonAgent - INFO - [7f140d28-8632-4c7a-a895-6a0a0addf23a] Recuperación: 3 chunks en 465.39ms
+2026-07-01 00:24:26,749 - CanonAgent - DEBUG - [7f140d28-8632-4c7a-a895-6a0a0addf23a] Tokens utilizados: 140
+2026-07-01 00:24:26,749 - CanonAgent - INFO - [7f140d28-8632-4c7a-a895-6a0a0addf23a] Ejecución completada en 951.50ms con estado: completado
