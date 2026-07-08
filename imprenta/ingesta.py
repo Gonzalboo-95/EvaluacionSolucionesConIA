@@ -32,12 +32,16 @@ def _validate_pdf(path: str) -> bool:
 def _load_documents() -> List[Any]:
     #Carga documentos internos y externos con su metadata de fuente.
     documents: List[Any] = []
-    internal_files = glob.glob("data/*.pdf")
+    internal_pdfs = glob.glob("data/*.pdf")
+    internal_texts = glob.glob("data/*.txt")
     external_files = glob.glob("external_sources/**/*.*", recursive=True)
 
-    print(f"Cargando {len(internal_files)} manuales internos y {len(external_files)} fuentes externas...")
+    print(
+        f"Cargando {len(internal_pdfs)} PDFs internos, {len(internal_texts)} textos internos "
+        f"y {len(external_files)} fuentes externas..."
+    )
 
-    for path in internal_files:
+    for path in internal_pdfs:
         if not _validate_pdf(path):
             print(f"Archivo inválido omitido: {path}")
             continue
@@ -45,8 +49,21 @@ def _load_documents() -> List[Any]:
         docs = loader.load()
         for doc in docs:
             doc.metadata["source"] = path
+            doc.metadata["source_type"] = "interno"
         documents.extend(docs)
-        print(f"Manual cargado: {path}")
+        print(f"Manual PDF cargado: {path}")
+
+    for path in internal_texts:
+        try:
+            loader = TextLoader(path, encoding="utf-8")
+            docs = loader.load()
+            for doc in docs:
+                doc.metadata["source"] = path
+                doc.metadata["source_type"] = "interno"
+            documents.extend(docs)
+            print(f"Manual interno cargado: {path}")
+        except Exception as exc:
+            print(f"No se pudo cargar manual interno {path}: {exc}")
 
     for path in external_files:
         try:
@@ -54,6 +71,7 @@ def _load_documents() -> List[Any]:
             docs = loader.load()
             for doc in docs:
                 doc.metadata["source"] = path
+                doc.metadata["source_type"] = "externo"
             documents.extend(docs)
             print(f"Fuente externa cargada: {path}")
         except Exception as exc:

@@ -1,0 +1,56 @@
+Manual Técnico Interno - Canon PIXMA iX6810
+Imprenta Nueva Imagen - Documento confidencial interno
+
+1. IDENTIFICACIÓN DEL EQUIPO
+Modelo: Canon PIXMA iX6810
+Tipo: Impresora de inyección de tinta A3+
+Uso organizacional: producción de folletos, gigantografías pequeñas y trabajos fotográficos A3.
+
+2. ESPECIFICACIONES OPERATIVAS
+- Resolución máxima: 9600 x 2400 dpi
+- Velocidad aproximada: 14,5 ipm en negro, 10,4 ipm en color (ISO)
+- Bandejas: entrada principal + alimentador manual para A3
+- Conectividad: USB, Ethernet, Wi-Fi
+- Cartuchos compatibles: PGI-250 / CLI-251 (negro, cian, magenta, amarillo)
+
+3. PROCEDIMIENTOS DE MANTENIMIENTO PREVENTIVO
+3.1 Limpieza de cabezales
+Ejecutar desde el panel: Mantenimiento > Limpieza de cabezales.
+Repetir hasta 3 ciclos si persisten líneas o bandas.
+Si no mejora, ejecutar limpieza profunda y verificar alineación.
+
+3.2 Alineación de cabezales
+Acceder a Mantenimiento > Alineación automática de cabezales.
+Imprimir hoja de prueba y confirmar alineación en el software Canon.
+
+3.3 Reemplazo de cartuchos
+Apagar la impresora antes de reemplazar cartuchos vacíos.
+No mezclar cartuchos de terceros sin autorización del jefe de taller.
+Registrar el reemplazo en la bitácora interna de mantenimiento.
+
+4. DIAGNÓSTICO DE FALLAS FRECUENTES
+4.1 Líneas o bandas en la impresión
+Causa probable: boquillas obstruidas o cabezal desalineado.
+Acción: limpieza de inyectores + alineación + prueba de impresión.
+
+4.2 Código de error E02-4000
+Indica atasco de papel en la bandeja posterior o guía interna.
+Acción: apagar equipo, retirar papel atascado con cuidado, reiniciar.
+
+4.3 Impresión borrosa o descolorida
+Causa probable: papel inadecuado, perfil ICC incorrecto o cabezal sucio.
+Acción: verificar tipo de papel, limpiar cabezales y recalibrar color.
+
+4.4 Ruido metálico o golpeteo
+Causa probable: desgaste de rodillos o objeto extraño en el camino del papel.
+Acción: detener operación, inspeccionar alimentador y programar revisión técnica.
+
+5. POLÍTICA INTERNA DE PRODUCCIÓN
+- Trabajos A3 color fotográfico: usar Canon iX6810 con papel premium 260 g/m².
+- Trabajos de alto volumen (>500 copias): derivar a impresora láser industrial.
+- Gigantografías y lonas: derivar a plotter de gran formato.
+- Prioridad urgente: registrar orden de trabajo con etiqueta URGENTE en el sistema de taller.
+
+6. TRAZABILIDAD
+Todo incidente debe registrarse con: fecha, operario, síntoma, acción tomada y resultado.
+Los manuales internos tienen prioridad sobre fuentes externas para decisiones operativas.

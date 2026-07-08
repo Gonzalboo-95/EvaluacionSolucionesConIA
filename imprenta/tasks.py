@@ -5,6 +5,8 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 
 from .agents import ConversationBufferWindowMemory, RAGAgent
+from .coordinator import CoordinatorAgent
+from .prompts import SYSTEM_PROMPT_COORDINATOR
 from .tools import build_tools, set_retriever
 
 try:
@@ -90,18 +92,31 @@ def build_agent_executor() -> RAGAgent:
     memory = ConversationBufferWindowMemory(k=5)
     llm = build_llm()
 
-    system_prompt = (
-        "Eres un asistente técnico de impresión especializado en Canon iX6810. "
-        "Usa las herramientas disponibles para consultar manuales, diagnosticar síntomas, crear órdenes de trabajo y recomendar producción. "
-        "Sigue el patrón Thought -> Action -> Observation -> Final Answer. "
-        "Responde de forma precisa, clara y solo con base en la evidencia disponible. "
-        "Si no hay información suficiente, admite que no está seguro y pide más datos."
+    agent = create_agent(
+        model=llm,
+        tools=tools,
+        system_prompt=SYSTEM_PROMPT_COORDINATOR,
+        debug=False,
+        name="CanonRAGAgent",
     )
+    rag_agent = RAGAgent(agent, memory)
+    return CoordinatorAgent(rag_agent)
+
+
+def build_rag_agent() -> RAGAgent:
+    """Construye el agente RAG base sin coordinador (útil para pruebas unitarias)."""
+    vector_db = load_vector_db()
+    retriever = vector_db.as_retriever(search_kwargs={"k": 3})
+    set_retriever(retriever)
+
+    tools = build_tools()
+    memory = ConversationBufferWindowMemory(k=5)
+    llm = build_llm()
 
     agent = create_agent(
         model=llm,
         tools=tools,
-        system_prompt=system_prompt,
+        system_prompt=SYSTEM_PROMPT_COORDINATOR,
         debug=False,
         name="CanonRAGAgent",
     )
