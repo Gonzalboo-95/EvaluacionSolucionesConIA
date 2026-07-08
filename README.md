@@ -18,7 +18,7 @@ Agente multi-especialista con RAG híbrido para soporte técnico Canon iX6810 en
 - LangChain + GPT-4o
 - FAISS (RAG: `data/` interno + `external_sources/` externo)
 - Wikipedia API (fuente externa complementaria)
-- Streamlit dashboard de observabilidad
+- Dashboard de observabilidad
 
 ## Instalación
 
